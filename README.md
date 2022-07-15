@@ -11,7 +11,7 @@ You'll get:
 
 Once you have access to the [environment variables you need](#step-3-set-up-environment-variables), deploy the example using [Netlify](https://www.netlify.com/):
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/plasmicapp/nextjs-starter)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/plasmicapp/nextjs-starter#NEXT_PUBLIC_PLASMIC_PROJECT_ID=2UaUgsF5EfZMMRJgygm1T1&NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN=Ku1gFeO2mlPAlqPBKpv5BGIJNd5NUboG6eDc7qVcP3ZRbHsKUTma9LJuMlE2fUXL2jvhnnyA7I5hRVpu0qA&PLASMIC_PREVIEW_SECRET=plasmic_preview_s)
 
 ## How to use
 
@@ -48,7 +48,7 @@ Copy the `.env.local.example` file in this directory to `.env.local` (which will
 cp .env.local.example .env.local
 ```
 
-Then set each variable on `.env.local`:
+Then replace the default env values in `.env.local` with your project credentials:
 
 - `NEXT_PUBLIC_PLASMIC_PROJECT_ID` should be the `projectId` value in step 2.
 - `NEXT_PUBLIC_PLASMIC_PROJECT_API_TOKEN` should be the API token gathered in previous step.
